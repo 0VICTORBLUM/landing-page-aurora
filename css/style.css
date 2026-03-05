@@ -4,3 +4,7 @@
 @import url(/css/utilitarios/geral.css);
 
 /*componentes*/
+@import url(/css/img/bg.png);
+
+/*hero*/
+@import url(/css/home/hero.css);

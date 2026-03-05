@@ -1,21 +1,22 @@
 body {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-a, ul {
-    list-style: nome;
-    text-decoration: nome;
-    color: inherit;
+a,
+ul {
+  list-style: nome;
+  text-decoration: nome;
+  color: inherit;
 }
 
 .content {
-    margin-left: 80px;
-    margin-right: 80px;
-
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .botao {
-    padding: 0px 12px 4px 0px;
-    border-bottom: 4px solid var(--g1);
+  color: var(--c1);
+  padding: 0px 12px 8px 0px;
+  /* border-bottom: 4px solid var(--g1); */
 }

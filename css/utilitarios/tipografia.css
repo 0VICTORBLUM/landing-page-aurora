@@ -26,3 +26,13 @@
     font: 400 1.25rem/1.5 'Montserrat';
     color: var(--c1);
 }
+
+.font-h1,
+.font-h2,
+.font-h3,
+.font-m1,
+.font-m2,
+.font-m3 {
+    box-sizing: border-box;
+    margin: 0px
+}

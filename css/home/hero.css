@@ -1,0 +1,27 @@
+.img-hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+
+.txt-hero,
+.font-logo {
+    position: relative;
+}
+
+.font-logo {
+    text-align: center;
+    margin-top: 20px;
+    /* margin-bottom: 120px; */
+}
+
+.txt-hero {
+    width: 50%;
+    align-items: center;
+}
+
+.txt-hero > .font-h1 {
+    margin-bottom: 12px;
+}

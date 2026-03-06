@@ -2,12 +2,13 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  background-color: var(--c2);
 }
 
 a,
 ul {
-  list-style: nome;
-  text-decoration: nome;
+  list-style: none;
+  text-decoration: none;
   color: inherit;
 }
 
@@ -16,9 +17,26 @@ ul {
   margin-right: 80px;
 }
 
-.botao {
+.botao{
+  display: inline-block;
   color: var(--c1);
-  padding: 0px 12px 8px 0px;
-  border-bottom: 4px solid var(--g1);
-  margin-top: 40px;
+  font: 400 1.5rem/1.5 'Montserrat';
+  margin-top: 40px; 
+  width: fit-content;
+  position: relative;
+}
+
+.botao::after {
+ content: '';
+ display: block;
+ height: 4px;
+ width: 0px;
+ background: var(--p2);
+ margin-top: 4px;
+ transition: 0.5s;
+ position: absolute;
+ 
+}
+.botao:hover:after{
+  width: 100%;
 }

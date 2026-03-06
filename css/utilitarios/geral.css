@@ -17,26 +17,34 @@ ul {
   margin-right: 80px;
 }
 
-.botao{
+.button {
+  display: flex;
+  align-items: end;
+}
+.button img {
+  margin: 4px 0px;
+}
+
+.botao {
   display: inline-block;
   color: var(--c1);
-  font: 400 1.5rem/1.5 'Montserrat';
-  margin-top: 40px; 
+  font: 400 1.5rem/1.5 "Montserrat";
+  margin-top: 40px;
   width: fit-content;
   position: relative;
+  margin-right: 12px;
 }
 
 .botao::after {
- content: '';
- display: block;
- height: 4px;
- width: 0px;
- background: var(--p2);
- margin-top: 4px;
- transition: 0.5s;
- position: absolute;
- 
+  content: "";
+  display: block;
+  height: 4px;
+  width: 0px;
+  background: var(--p2);
+  margin-top: 4px;
+  transition: 0.5s;
+  position: absolute;
 }
-.botao:hover:after{
+.botao:hover:after {
   width: 100%;
 }

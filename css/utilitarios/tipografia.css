@@ -1,30 +1,32 @@
 .font-logo {
-    font: 400 2rem/1.5 'playfair';
-    color: var(--c1);
+  font: 400 2rem/1.5 "playfair";
+  color: var(--c1);
 }
+
 .font-h1 {
-    font: 500 4rem/1 'playfair';
-    color: var(--c1);
+  font: 500 4rem/1 "playfair";
+  color: var(--c1);
 }
+
 .font-h2 {
-    font: 400 2rem/1.5 'playfair';
-    color: var(--c1);
+  font: 400 2rem/1.5 "playfair";
+  color: var(--c1);
 }
 .font-h3 {
-    font: 500 1.25rem/1.5 'playfair';
-    color: var(--c1);
+  font: 500 1.25rem/1.5 "playfair";
+  color: var(--c1);
 }
 .font-m1 {
-    font: 400 2rem/1.5 'Montserrat';
-    color: var(--c1);
+  font: 400 2rem/1.5 "Montserrat";
+  color: var(--c1);
 }
 .font-m2 {
-    font: 400 1.5rem/1.5 'Montserrat';
-    color: var(--c1);
+  font: 400 1.5rem/1.5 "Montserrat";
+  color: var(--c1);
 }
 .font-m3 {
-    font: 400 1.25rem/1.5 'Montserrat';
-    color: var(--c1);
+  font: 400 1.25rem/1.5 "Montserrat";
+  color: var(--c1);
 }
 
 .font-h1,
@@ -33,6 +35,53 @@
 .font-m1,
 .font-m2,
 .font-m3 {
-    box-sizing: border-box;
-    margin: 0px
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+@media (max-width: 900px) {
+  .font-logo {
+    font: 400 1.5rem/1.5 "playfair";
+  }
+  .font-h1 {
+    font: 500 3rem/1 "playfair";
+  }
+  .font-h2 {
+    font: 400 1.5rem/1.5 "playfair";
+  }
+  .font-h3 {
+    font: 500 1rem/1.5 "playfair";
+  }
+  .font-m1 {
+    font: 400 1.5rem/1.5 "Montserrat";
+  }
+  .font-m2 {
+    font: 400 1.25rem/1.5 "Montserrat";
+  }
+  .font-m3 {
+    font: 400 1rem/1.5 "Montserrat";
+  }
+}
+@media (max-width: 400px) {
+  .font-logo {
+    font: 400 1rem/1.5 "playfair";
+  }
+  .font-h1 {
+    font: 500 2rem/1 "playfair";
+  }
+  .font-h2 {
+    font: 400 1rem/1.5 "playfair";
+  }
+  .font-h3 {
+    font: 500 0.875rem/1.5 "playfair";
+  }
+  .font-m1 {
+    font: 400 1.25rem/1.5 "Montserrat";
+  }
+  .font-m2 {
+    font: 400 1rem/1.5 "Montserrat";
+  }
+  .font-m3 {
+    font: 400 0.875rem/1.5 "Montserrat";
+  }
 }

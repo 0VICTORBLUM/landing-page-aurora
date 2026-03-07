@@ -16,6 +16,18 @@ ul {
   margin-left: 80px;
   margin-right: 80px;
 }
+@media (max-width: 900px) {
+  .content {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media (max-width: 400px) {
+  .content {
+    margin-left: 32px;
+    margin-right: 32 px;
+  }
+}
 
 .button {
   display: flex;
@@ -28,7 +40,6 @@ ul {
 .botao {
   display: inline-block;
   color: var(--c1);
-  font: 400 1.5rem/1.5 "Montserrat";
   margin-top: 40px;
   width: fit-content;
   position: relative;

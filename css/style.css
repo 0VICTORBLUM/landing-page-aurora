@@ -6,5 +6,7 @@
 /*componentes*/
 @import url(/css/img/bg.png);
 
-/*hero*/
+/*home*/
 @import url(/css/home/hero.css);
+@import url(/css/home/pilares.css);
+

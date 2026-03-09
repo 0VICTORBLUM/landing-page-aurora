@@ -1,10 +1,17 @@
-.img-hero {
+/* .img-hero {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     display: flex;
     object-fit: cover;
+    margin-bottom: 160px;
+} */
+ .hero {
+  height: 600px;
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  background-position: center;
 }
 .txt-hero,
 .font-logo {

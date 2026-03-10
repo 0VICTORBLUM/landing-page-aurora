@@ -62,10 +62,7 @@
     font: 400 1rem/1.5 "Montserrat";
   }
 }
-@media (max-width: 400px) {
-  .font-logo {
-    font: 400 1rem/1.5 "playfair";
-  }
+@media (max-width: 480px) {
   .font-h1 {
     font: 500 2rem/1 "playfair";
   }

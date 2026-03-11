@@ -75,3 +75,15 @@ ul {
   justify-content: center;
   margin-bottom: 20px;
 }
+
+@media (max-width: 800px) {
+  .vetores {
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .vetores {
+    height: 30px;
+  }
+}

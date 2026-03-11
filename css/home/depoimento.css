@@ -14,11 +14,11 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 480px) {
-  .declaracoes {
-    grid-template-columns: 1fr;
+@media (max-width: 800px) {
+  .declaracoes  {
+    grid-template-columns: 1fr; 
   }
-  .vetores {
+  .declaracoes .vetores {
     height: 30px;
   }
 }

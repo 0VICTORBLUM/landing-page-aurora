@@ -87,3 +87,14 @@ ul {
     height: 30px;
   }
 }
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+}
+
+.cta .button {
+  justify-content: center;
+}
